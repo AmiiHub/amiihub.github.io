@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+Hello! Im Amiyaz and welcome to my website!
 <html lang="en">
   <head>
     <meta charset="utf-8">
@@ -99,7 +99,7 @@
       <footer>
         <div class="row">
           <div class="col-lg-12">
-            <p>Copyright &copy; Company <span id="getCurrentDate"></span></p>
+            <p>Made this website myself; Don't be stealing! &copy; Amiyaz 2022-end of the world <span id="getCurrentDate"></span></p>
           </div>
         </div>
       </footer>
