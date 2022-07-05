@@ -75,6 +75,10 @@ Hello! Im Amiyaz and welcome to my website!
       <footer>
         <div class="row">
           <div class="col-lg-12">
+            
+            
+            
+            
             <p>Made this website myself. Don't be stealing! &copy; Amiyaz 2022 - end of the world 
          
       
