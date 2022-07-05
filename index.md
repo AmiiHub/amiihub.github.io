@@ -58,7 +58,7 @@ Hello! Im Amiyaz and welcome to my website!
 
         <div class="col-md-4 portfolio-item">
           <a href="#project-link"><img class="img-responsive" src="http://placehold.it/700x400"></a>
-          <h3><a href="#project-link">How I made this website:</a></h3>
+          <h3><a href="https://docs.github.com/en">How I made this website:</a></h3>
           <p>Just read the appropriate docs for making a website using GitHub. IT'S THAT SIMPLE!!!!</p>
         </div>
 
