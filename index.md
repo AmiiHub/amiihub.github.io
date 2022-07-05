@@ -32,7 +32,6 @@ Hello! Im Amiyaz and welcome to my website!
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse navbar-ex1-collapse">
           <ul class="nav navbar-nav">
-            <li><a href="https://github.com/AmiiHub/AmiiHub">About</a></li>
           </ul>
         </div><!-- /.navbar-collapse -->
       </div><!-- /.container -->
@@ -52,7 +51,7 @@ Hello! Im Amiyaz and welcome to my website!
 
         <div class="col-md-4 portfolio-item">
           <a href="#project-link"><img class="img-responsive" src="http://placehold.it/700x400"></a>
-          <h3><a href="#project-link">About me:</a></h3>
+          <h3><a href="https://github.com/AmiiHub/AmiiHub">About me:</a></h3>
           <p>I am just a ordinary secondary school student in Singapore who loves coding. I specialise in Python, C++, C#, Javascript, HTML and CSS.</p>
         </div>
 
