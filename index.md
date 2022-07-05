@@ -54,20 +54,20 @@ Hello! Im Amiyaz and welcome to my website!
 
         <div class="col-md-4 portfolio-item">
           <a href="#project-link"><img class="img-responsive" src="http://placehold.it/700x400"></a>
-          <h3><a href="#project-link">Project Name</a></h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.</p>
+          <h3><a href="#project-link">About me:</a></h3>
+          <p>>I am just a ordinary secondary school student in Singapore who loves coding. I specialise in Python, C++, C#, Javascript, HTML and CSS.</p>
         </div>
 
         <div class="col-md-4 portfolio-item">
           <a href="#project-link"><img class="img-responsive" src="http://placehold.it/700x400"></a>
-          <h3><a href="#project-link">Project Name</a></h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.</p>
+          <h3><a href="#project-link">How I made this website:</a></h3>
+          <p>Just read the appropriate docs for making a website using GitHub. IT'S THAT SIMPLE!!!!</p>
         </div>
 
         <div class="col-md-4 portfolio-item">
           <a href="#project-link"><img class="img-responsive" src="http://placehold.it/700x400"></a>
-          <h3><a href="#project-link">Project Name</a></h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.</p>
+          <h3><a href="#project-link">Why I made this website:</a></h3>
+          <p>I never had my own website and GitHub was a good opportunity for me to create one. </p>
         </div>
 
       </div>
