@@ -26,7 +26,7 @@ Hello! Im Amiyaz and welcome to my website!
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="https://youtu.be/dQw4w9WgXcQ">Start Bootstrap</a>
+          <a class="navbar-brand" href="https://youtu.be/dQw4w9WgXcQ">Check out my latest GitHub projects!</a>
         </div>
 
         <!-- Collect the nav links, forms, and other content for toggling -->
