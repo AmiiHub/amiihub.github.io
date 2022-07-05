@@ -1,126 +1,118 @@
-<style>
-	br {
-    user-select: none;
-  }
-  
-  body {
-    text-align: center;
-    background-color: cyan;
-  }
-  
-  li {
-    list-style-type: none;
-  }
-  
-  @keyframes spin {
-    from {
-      transform: rotate(0deg);
-    }
-    to {
-      transform: rotate(360deg);
-    }
-  }
-  .circle.animated {
-    animation-name: spin;
-    animation-duration: 1000ms;
-    transition-timing-function: ease-in-out;
-  }
-  
-  .circle:hover {
-    background-color: lightgrey;
-  }
-  
-  .circle:active {
-    background-color: grey;
-  }
-  
-  .circle {
-    background-color: white;
-    display: table;
-    position: relative;
-    width: 100px;
-    height: 100px;
-    user-select: none;
-    border: 5px solid green;
-    border-radius: 50%;
-    margin-left: 50%;
-    overflow: hidden;
-  }
-  
-  .cText {
-    display: table-cell;
-    position: absolute;
-    top: 35%;
-    vertical-align: middle;
-  }
-  
-  .center {
-    position: relative;
-    top: -50%;
-  }
-</style>
-<script>
-const elements = document.getElementsByClassName("circle");
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
 
-for (let i = 0; i < elements.length; i++) {
-	elements[i].addEventListener("animationend", function (e) {
-		elements[i].classList.remove("animated");
-	});
+    <title>Hello there! Im Amiyaz and welcome to my website! 3</title>
 
-	elements[i].addEventListener("click", function (e) {
-		elements[i].classList.add("animated");
-	});
-}
-</script>
-<body>
-    <div class="circle">
-      <div class="cText"> 
-        <div class="center">1. Click to spin</div>
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+
+    <!-- Custom CSS for the '3 Col Portfolio' Template -->
+    <link href="css/3-col-portfolio.css" rel="stylesheet">
+  </head>
+
+  <body>
+
+    <nav class="navbar navbar-fixed-top navbar-inverse" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="http://startbootstrap.com">Start Bootstrap</a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse navbar-ex1-collapse">
+          <ul class="nav navbar-nav">
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div><!-- /.navbar-collapse -->
+      </div><!-- /.container -->
+    </nav>
+
+    <div class="container">
+
+      <div class="row">
+
+        <div class="col-lg-12">
+          <h1 class="page-header">3 Col Portfolio <small>Showcase Your Work</small></h1>
+        </div>
+
       </div>
-    </div><br/>
-    <div class="circle">
-      <div class="cText"> 
-        <div class="center">2. Click to spin</div>
+
+      <div class="row">
+
+        <div class="col-md-4 portfolio-item">
+          <a href="#project-link"><img class="img-responsive" src="http://placehold.it/700x400"></a>
+          <h3><a href="#project-link">Project Name</a></h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.</p>
+        </div>
+
+        <div class="col-md-4 portfolio-item">
+          <a href="#project-link"><img class="img-responsive" src="http://placehold.it/700x400"></a>
+          <h3><a href="#project-link">Project Name</a></h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.</p>
+        </div>
+
+        <div class="col-md-4 portfolio-item">
+          <a href="#project-link"><img class="img-responsive" src="http://placehold.it/700x400"></a>
+          <h3><a href="#project-link">Project Name</a></h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.</p>
+        </div>
+
       </div>
-    </div><br/>
-    <div class="circle">
-      <div class="cText"> 
-        <div class="center">3. Click to spin</div>
+
+      <hr>
+
+      <div class="row text-center">
+        
+        <div class="col-lg-12">
+          <ul class="pagination">
+            <li><a href="#">&laquo;</a></li>
+            <li class="active"><a href="#">1</a></li>
+            <li><a href="#">2</a></li>
+            <li><a href="#">3</a></li>
+            <li><a href="#">4</a></li>
+            <li><a href="#">5</a></li>
+            <li><a href="#">&raquo;</a></li>
+          </ul>        
+        </div>
+
       </div>
-    </div><br/>
-    <div class="circle">
-      <div class="cText"> 
-        <div class="center">4. Click to spin</div>
-      </div>
-    </div><br/>
-    <div class="circle">
-      <div class="cText"> 
-        <div class="center">5. Click to spin</div>
-      </div>
-    </div><br/>
-    <div class="circle">
-      <div class="cText"> 
-        <div class="center">6. Click to spin</div>
-      </div>
-    </div><br/>
-    <div class="circle">
-      <div class="cText"> 
-        <div class="center">7. Click to spin</div>
-      </div>
-    </div><br/>
-    <div class="circle">
-      <div class="cText"> 
-        <div class="center">8. Click to spin</div>
-      </div>
-    </div><br/>
-    <div class="circle">
-      <div class="cText"> 
-        <div class="center">9. Click to spin</div>
-      </div>
-    </div><br/>
-    <div class="circle">
-      <div class="cText"> 
-        <div class="center">10. Click to spin</div>
-      </div>
-    </div><br/>
+
+    </div><!-- /.container -->
+
+    <div class="container">
+
+      <hr>
+
+      <footer>
+        <div class="row">
+          <div class="col-lg-12">
+            <p>Copyright &copy; Company <span id="getCurrentDate"></span></p>
+          </div>
+        </div>
+      </footer>
+      
+    </div><!-- /.container -->
+
+    <!-- JavaScript -->
+    <script src="js/jquery-1.10.2.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script type="text/javascript">
+      var dt = new Date();
+      document.getElementById('getCurrentDate').innerHTML = dt.getFullYear();
+    </script>
   </body>
+
+</html>
