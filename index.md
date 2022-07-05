@@ -102,13 +102,9 @@ Hello! Im Amiyaz and welcome to my website!
             <p>Made this website myself; Don't be stealing! &copy; Amiyaz 2022-end of the world 
          
       
-    </div><!-- /.container -->
-
     <!-- JavaScript -->
     <script src="js/jquery-1.10.2.js"></script>
     <script src="js/bootstrap.js"></script>
     <script type="text/javascript">
     </script>
-  </body>
-
-</html>
+  
