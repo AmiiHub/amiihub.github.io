@@ -55,7 +55,7 @@ Hello! Im Amiyaz and welcome to my website!
         <div class="col-md-4 portfolio-item">
           <a href="#project-link"><img class="img-responsive" src="http://placehold.it/700x400"></a>
           <h3><a href="#project-link">About me:</a></h3>
-          <p>>I am just a ordinary secondary school student in Singapore who loves coding. I specialise in Python, C++, C#, Javascript, HTML and CSS.</p>
+          <p>I am just a ordinary secondary school student in Singapore who loves coding. I specialise in Python, C++, C#, Javascript, HTML and CSS.</p>
         </div>
 
         <div class="col-md-4 portfolio-item">
