@@ -26,7 +26,7 @@ Hello! Im Amiyaz and welcome to my website!
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="http://startbootstrap.com">Start Bootstrap</a>
+          <a class="navbar-brand" href="https://youtu.be/dQw4w9WgXcQ">Start Bootstrap</a>
         </div>
 
         <!-- Collect the nav links, forms, and other content for toggling -->
@@ -45,7 +45,7 @@ Hello! Im Amiyaz and welcome to my website!
       <div class="row">
 
         <div class="col-lg-12">
-          <h1 class="page-header">3 Col Portfolio <small>Showcase Your Work</small></h1>
+          <h1 class="page-header">Take a nice look at my website!</h1>
         </div>
 
       </div>
@@ -110,8 +110,6 @@ Hello! Im Amiyaz and welcome to my website!
     <script src="js/jquery-1.10.2.js"></script>
     <script src="js/bootstrap.js"></script>
     <script type="text/javascript">
-      var dt = new Date();
-      document.getElementById('getCurrentDate').innerHTML = dt.getFullYear();
     </script>
   </body>
 
