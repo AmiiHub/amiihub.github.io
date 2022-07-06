@@ -61,15 +61,9 @@ Hello! Im Amiyaz and welcome to my website!
           <p>Just read the appropriate docs for making a website using GitHub. IT'S THAT SIMPLE!!!!</p>
         </div>
 
-        <div class="col-md-4 portfolio-item">
-          <a href="#project-link"><img class="img-responsive" src="http://placehold.it/700x400"></a>
-          <h3><a href="#project-link">Why I made this website:</a></h3>
-          <p>I never had my own website and GitHub was a good opportunity for me to create one. </p>
-        </div>
-
+       
     
-
-      <footer>
+        <footer>
         <div class="row">
           <div class="col-lg-12">
             
