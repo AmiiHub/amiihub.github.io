@@ -50,7 +50,7 @@
           <div class="project-info">
             <h1>Project 1</h1>
             <a href="https://github.com/AmiiHub/slicktrapefox" class="cta">Slicktrapefox</a>
-            <p> An extremely cool css that I made myself since im a pro in CSS. </p>
+            <p> An extremely cool Firefox userChrome css that I made myself since im a pro in CSS. </p>
         </div>
         <div class="project-item">
           <div class="project-info">
