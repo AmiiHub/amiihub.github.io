@@ -142,19 +142,6 @@
           <div class="contact-info">
             <h1>Gmail</h1>
             <h2>mohamadamiyaz@gmail.com</h2>
-            
-          </div>
-        </div>
-        <div class="contact-item">
-          <div class="icon"><img src="./img/location.png"/></div>
-          <div class="contact-info">
-            <h1>Address</h1>
-            <h2>Somewhere on Earth</h2>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
   <!-- End Contact Section -->
   
   <script src="./app.js"></script>
