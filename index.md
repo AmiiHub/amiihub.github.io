@@ -102,7 +102,7 @@
         </div>
         <div class="project-item">
           <div class="project-info">
-            <h1>Project 5</h1>
+            <h1>Project 4</h1>
             <a href="https://github.com/AmiiHub/M5GO-Insanity" class="cta">M5GO Insanity</a>
             <p>Basically all of my M5GO codes that I do in school/home will be here. Enjoy! </p>
           </div>
