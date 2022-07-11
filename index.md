@@ -122,5 +122,3 @@
   <!-- End Contact Section -->
   
 
-</body>
-</html>
