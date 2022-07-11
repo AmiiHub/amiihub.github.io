@@ -96,13 +96,6 @@
           <div class="project-img">
             <img src="https://user-images.githubusercontent.com/22257930/87544595-5af33780-c6c4-11ea-9005-5978cb713556.PNG" alt="img">
           </div>
-        </div>
-        <div class="project-item">
-          <div class="project-info">
-            <h1>Project 4</h1>
-            <a href="https://multiplicationgames.netlify.app/" class="cta">Multiplication Game</a>
-            <p>The main purpose of the project was to build an interactive application - Multiplication Game. The game demonstrates programming with JavaScript.When the game begins, the timer is set to 30 seconds.Two random numbers between 0 and 10 are displayed for the multiplication question.Four answer choices are given, one of which is the correct answer.If the correct answer is selected, the "right" label will be shown for one second, and a new question will be displayed.</p>
-          </div>
           <div class="project-img">
             <img src="https://user-images.githubusercontent.com/22257930/88288790-e5b1e300-cd11-11ea-86ef-c2bc8c8b6e96.png" alt="img">
           </div>
