@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="style.css">
-  <title>My Website</title>
+  <title>Amiyaz's Official Website!</title>
   <link rel="icon" href="https://avatars.githubusercontent.com/u/105401901?v=4">
 </head>
 
