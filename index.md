@@ -144,6 +144,6 @@
             <h2>mohamadamiyaz@gmail.com</h2>
   <!-- End Contact Section -->
   
-  <script src="./app.js"></script>
+
 </body>
 </html>
