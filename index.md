@@ -1,330 +1,169 @@
-<!Doctype html>
+<!DOCTYPE html>
 <html lang="en">
+
 <head>
-<link rel="shortcut icon" href="/G:/coding/wensite/favicon.ico" type="image/x-icon" />
-<meta charset="utf-8"/>
-<title> I_See_St4irs</title>
-<meta name="Viewpoint" content="Width=device-width,initial-scale=1.0">
-<link rel="stylsheet" href="blueberry.css"/>
-<style type="text/css">
-* {
-margin: 0;
-border: 0;
-padding: 0;
-}
-body{
-background: #f0f0f0;
-font: 14px/20px Arial, San-Serif;
-color: #555;
-margin: 0;
-}
-h1 {
-text-align: center;
-font size: 180%;
-line-height: 120%;
-padding: 5% 0;
-}
-h2 {
-text-decoration: underline;
-line-height: 280%;
-padding-left: 2%:
-}
-h3 {
-line-height: 110%;
-padding: 5% 0;
-}
-p{
-padding: 1%;
-}
-img {
-text-align: center;
-max-width: 100%;
-height: auto;
-width: auto;
-}
-a {
-color: #fff;
-text-decoration: none;
-font-weight: bold;
-}
-a:hover {
-color: #fff;
-text-decoration: underline;
-}
-header {
-background: #405580;
-width: 100%;
-height: 86px;
-position: fixed;
-top: 0;
-left: 0;
-z-index: 100;
-opacity: 0.90;
-}
-#logo {
-  display: inline-block;
-  margin: 15px; 
-  float: left;
-  height: 60px;
-  width: auto; 
-  border-radius: 50%; 
-}
-nav { 
-float: right;
-padding: 35px 20px 20px 0;
-}
-#menu-icon {
-display: hidden;
-width: 40px;
-height: 40px;
-background:#ccc url(http://i65.tinypic.com/xgfvc4.jpg ) center;
-}
-a:hover#menu-icon {
-border-radius: 4px 4px 0 0;
-}
-ul {
-list-style: none;
-}
-nav ul li {
-display: inline-block;
-float: left;
-padding: 10px;
-}
-.current {
-color: #fff;
-text-decoration: underline;
-}
-#doc {
-margin: 40px 0;
-}
-#content {
-margin; 0 auto;
-max-width: 1140px;
-margin-top: 110px;
-}
-.blueberry {
-max-width; 960px;
-margin-top; 110px;
-}
-section {
-width: 29%;
-float: left;
-margin: 2% 2%;
-text-align: center;
-}
-.clear {
-clear: both;
-}
-article {
-float: left;
-margin: 0 auto;
-width: 50%;
-height: auto;
-padding: 4%;
-}
-aside {
-float: right;
-margin: 0 auto;
-width: 35%;
-height: auto;
-padding: 3%;
-}
-ul.camaro li {
-padding-left: 3%;
-}
-footer {
-background: #333333;
-width: 100%;
-overflow: hidden;
-opacity: 0.90;
-}
-footer p, footer h3 {
-color: #fff;
-}
-footer p a {
-color: #fff;
-text-decoration: none;
-}
-ul.social li {
-display: inline;
-}
-ul.social li img {
-height: 50px;
-}
-footer.second {
-border-top: 1px solid #4D4E50;
-background-color: #333333;
-max-height: 50px;
-text-align: center;
-opacity: 0.95;
-}
-
-
-
-
-
-
-/*-------------------------MEDIA!!!-------------------------*/
-@media screen and (max-width: 478px) {
-body {
-position: absolute;
-}
-}
-@media screen and (max-width: 740px) {
-header {
-psotion: absolute;
-}
-#menu-icon {
-display: inline-block;
-}
-nav ul, nav:active ul {
-display: none;
-position: absolute;
-padding: 20px;
-background: #405580;
-border: 1px solid #fff;
-right: 20px;
-top: 60px;
-width: 50%;
-border-radius: 2px 0 2px 2px;
-}
-nav li {
-text-align: center;
-width: 100%;
-padding: 10px 0;
-margin: 0;
-}
-nav:hover ul {
-display: block;
-}
-section {
-float: left;
-width: 100%;
-margin: 0;
-padding: 0;
-}
-}
-</style>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js"></script>
-<script src="jquery.blueberry.js"></script>
-<script>
-$(window).load(function() {
-$('.blueberry').blueberry();
-});
-</script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>My Website</title>
+  <link rel="icon" href="./img/website.png">
 </head>
+
 <body>
-<header>
-<a href="#"><img id="logo" src="http://i67.tinypic.com/2v9dm5h.jpg"></a>
-<nav>
-<a href="#" id="menu-icon"></a>
-<ul>
-<li><a href="index.html" class="current">Home</a></li>
-<li><a href="accounts.html">Accounts</a></li>
-<li><a href="contact me.html">Contact Me.</a></li>
-<li><a href="pictures.html">Pictures</a></li>
-<li><a href="about me.html">About Me</a></li>
-<li><a href="other people.html">Other People</a></li>
-</ul>
-
-</nav>
-</header>
-<div id="doc">
-<div id="content">
-<div class="blueberry">
-<ul class="slides">
-<li><img src="staring.jpg"/></li>
-<li><img src="burnout.jpg"/></li>
-<li><img src="ablade.jpg"/></li>
-<li><img src="aston.jpg"/></li>
-<li><img src="jag.jpg"/></li>
-<li><img src="post1.jpg"/></li>
-<li><img src="post2.jpg"/></li>
-<li><img src="post4.jpg"/></li>
-<li><img src="post5.jpg"/></li>
-<li><img src="post8.jpg"/></li>
-<li><img src="post9.jpg"/></li>
-<li><img src="post10.jpg"/></li>
-<li><img src="post11.jpg"/></li>
-
-</ul>
-</div>
-</div>
-</div>
-<section>
-<img src="instagram_logo_small.png"/>
-<h1>My Instagram!</h1>
-<p> This is my instagram account my name on instagram is I_see_st4irs i post mainly car pictures</p>
-</section>
-<section>
-<img src="twitter.png"/>
-<h1>My Twitter!</h1>
-<p> This is my Twitter account my name on Twitter is I_see_st4irs i post a little bit of everything i have a secondary twitter by the name of Lenny_bruh_rekt</p>
-</section>
-<section>
-<img src="pinterest.png"/>
-<h1>My Pinterest!</h1>
-<p> This is my Pinterest account my name on Pinterest is I_see_st4irs i post anything i like on my boards.</p>
-</section>
-<div class="clear"></div>
-<article>
-<img src="2ss.jpg"/>
-</article>
-<aside>
-<h2> My Favorite Car:</h2>
-<ul class="Camaro">
-<li><h3>My favorite car is the Chevrolet Camaro, especially the 6th gen Camaro which is the latest Camaro.</h3></li>
-<li><h3>455 horsepower</h3></li>
-<li><h3>455 foot pounds of torque</h3></li>
-<li><h3>0-60 mph in 3.9 seconds</h3></li>
-<li><h3>Runs the quarter mile in 12.2 seconds</h3></li>
-<li><h3>Weighs 3,685 pounds</h3></li>
-<li><h3>So the 2016 Camaro SS is a great muscle car</h3></li>
-</ul>
-</aside>
-<div class="clear"></div>
-<section>
-<h1>The 2016 Camaro SS</h1>
-<img src="ss.jpg"/>
-<p> This is My favorite muscle car.</p>
-</section>
-<section>
-<h1>The 2015 Koenigsegg one:1</h1>
-<img src="koenigsegg.jpg"/>
-<p> This is my favorite Megacar.</p>
-</section>
-<section>
-<h1>The 2016 Dodge Charger Hellcat</h1>
-<img src="hellcat.jpg"/>
-<p> This is My favorite sports sedan.</p>
-</section>
-<footer>
-<section>
-<h3><b> Me</b></h3>
-<p><b>@iamwilsparks@gmail.com</b><br><br>
-contact me if you want to send me pictures to post on my Instagram or Twitter.</p>
-</section>
-<section>
-<h3>Follow me!</h3>
-<ul class="social">
-<li><a href="www.online-instagram.com/user/i_see_st4irs/246253528"><img src="instagram_logo_small.png"></a></li>
-<li><a href="https://twitter.com/i_see_st4irs"><img src="twitter.png"></a></li>
-<li><a href="https://twitter.com/i_see_st4irs"><img src="tumblr.png"></a></li>
-<li><a href="https://plus.google.com/wm/quevuelvamatt/.../collections"><img src="googleplus.png"></a></li>
-<li><a href="https://www.youtube.com/channel/UCOaUXzGUZ2_1EB_-QI15WoA"><img src="youtube.png"></a></li>
-</ul>
-</section>
-<section>
-<img src="logo.jpg">
-</section>
-</footer>
-<footer class="second">
-<p>©copyright - I_See_St4irs, 2016.</p>
-</footer>
+  <!-- Header -->
+  <section id="header">
+    <div class="header container">
+      <div class="nav-bar">
+        <div class="brand">
+          <a href="#hero"><h1><span>AMIYAZ <span> </span></span>THE AMAZING</h1></a>
+        </div>
+        <div class="nav-list">
+          <div class="hamburger"><div class="bar"></div></div>
+          <ul>
+            <li><a href="#hero" data-after="Home">Home</a></li>
+            <li><a href="#services" data-after="Service">Services</a></li>
+            <li><a href="#projects" data-after="Projects">Projects</a></li>
+            <li><a href="#about" data-after="About">About</a></li>
+            <li><a href="#contact" data-after="Contact">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Header -->
 
 
+  <!-- Hero Section  -->
+  <section id="hero">
+    <div class="hero container">
+      <div>
+        <h1>Hello, <span></span></h1>
+        <h1>My Name is <span></span></h1>
+        <h1>Sahil Janbandhu<span></span></h1>
+        <a href="#projects" type="button" class="cta">Projects</a>
+      </div>
+    </div>
+  </section>
+  <!-- End Hero Section  -->
 
+  <!-- Service Section -->
+  <section id="services">
+    <div class="services container">
+      <div class="service-top">
+        <h1 class="section-title">Serv<span>i</span>ces</h1>
+        <h2>Some of the services provided by me.</h2>
+      </div>
+      <div class="service-bottom">
+        <div class="service-item">
+          <div class="icon"><img src="./img/services.png"/></div>
+          <h2>Web Development & Web Design</h2>
+          <p>Work with programming languages like HTML, CSS, JS, PHP, etc.. to create websites and web applications</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Service Section -->
 
+  <!-- Projects Section -->
+  <section id="projects">
+    <div class="projects container">
+      <div class="projects-header">
+        <h1 class="section-title">Recent <span>Projects</span></h1>
+      </div>
+      <div class="all-projects">
+        <div class="project-item">
+          <div class="project-info">
+            <h1>Project 1</h1>
+            <a href="https://github.com/AmiiHub/slicktrapefox" class="cta">Slicktrapefox</a>
+            <p> An extremely cool css that I made myself since im a pro in CSS. </p>
+        </div>
+        <div class="project-item">
+          <div class="project-info">
+            <h1>Project 2</h1>
+            <a href="https://github.com/AmiiHub/RGBParrot" class="cta">Online Test</a>
+            <p>This is an application that is both funny and cool!</p>
+          </div>
+          <div class="project-img">
+            <img src="https://user-images.githubusercontent.com/22257930/84566541-a77ae880-ad8f-11ea-883d-d548a7ed9f23.png" alt="img">
+          </div>
+        </div>
+        <div class="project-item">
+          <div class="project-info">
+            <h1>Project 3</h1>
+            <a href="https://github.com/AmiiHub/Python-Madness" class="cta">Python Madness</a>
+            <p>This repository basically containes all of my Python codes. Enjoy! Credits to @SansUndertaleLab and @lomnom for the codes. If you notice, some of the codes are one liners which are done by @lomnom. </p>
+          </div>
+          <div class="project-img">
+            <img src="https://user-images.githubusercontent.com/22257930/87544595-5af33780-c6c4-11ea-9005-5978cb713556.PNG" alt="img">
+          </div>
+        </div>
+        <div class="project-item">
+          <div class="project-info">
+            <h1>Project 4</h1>
+            <a href="https://multiplicationgames.netlify.app/" class="cta">Multiplication Game</a>
+            <p>The main purpose of the project was to build an interactive application - Multiplication Game. The game demonstrates programming with JavaScript.When the game begins, the timer is set to 30 seconds.Two random numbers between 0 and 10 are displayed for the multiplication question.Four answer choices are given, one of which is the correct answer.If the correct answer is selected, the "right" label will be shown for one second, and a new question will be displayed.</p>
+          </div>
+          <div class="project-img">
+            <img src="https://user-images.githubusercontent.com/22257930/88288790-e5b1e300-cd11-11ea-86ef-c2bc8c8b6e96.png" alt="img">
+          </div>
+        </div>
+        <div class="project-item">
+          <div class="project-info">
+            <h1>Project 5</h1>
+            <a href="https://github.com/AmiiHub/M5GO-Insanity" class="cta">M5GO Insanity</a>
+            <p>Basically all of my M5GO codes that I do in school/home will be here. Enjoy! </p>
+          </div>
+          <div class="project-img">
+            <img src="https://user-images.githubusercontent.com/22257930/86759685-52668580-c062-11ea-97d8-39f8838c32dd.png" alt="img">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Projects Section -->
 
+  <!-- About Section -->
+  <section id="about">
+    <div class="about container">
+      <div class="col-left">
+        <div class="about-img">
+          <img src="https://avatars.githubusercontent.com/u/105401901?v=4" alt="img">
+        </div>
+      </div>
+      <div class="col-right">
+        <h1 class="section-title">About <span>me</span></h1>
+        <h2>Aspiring coder</h2>
+        <p>It's all thanks to my friend Francis that introduced me to coding and I began loving to code ever since!</p>
+      </div>
+    </div>
+  </section>
+  <!-- End About Section -->
+
+  <!-- Contact Section -->
+  <section id="contact">
+    <div class="contact container">
+      <div><h1 class="section-title">Contact <span>info</span></h1></div>
+      <div class="contact-items">
+        <div class="contact-item">
+          <div class="icon"><img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.5u7A1BVR50f-1m2MNJFczAHaHa%26pid%3DApi&f=1"/></div>
+          <div class="contact-info">
+            <h1>Gmail</h1>
+            <h2>mohamadamiyaz@gmail.com</h2>
+            
+          </div>
+        </div>
+        <div class="contact-item">
+          <div class="icon"><img src="./img/location.png"/></div>
+          <div class="contact-info">
+            <h1>Address</h1>
+            <h2>Somewhere on Earth</h2>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Contact Section -->
+  
+  <script src="./app.js"></script>
 </body>
 </html>
