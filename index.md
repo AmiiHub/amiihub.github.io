@@ -18,8 +18,6 @@
         <div class="nav-list">
           <div class="hamburger"><div class="bar"></div></div>
           <ul>
-            <li><a href="#home" data-after="https://amiihub.github.io/">Home</a></li>
-            <li><a href="#repositories" data-after="https://github.com/AmiiHub?tab=repositories">Repositories</a></li>
           </ul>
         </div>
       </div>
