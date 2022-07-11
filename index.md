@@ -109,16 +109,6 @@
   </section>
   <!-- End About Section -->
 
-  <!-- Contact Section -->
-  <section id="contact">
-    <div class="contact container">
-      <div><h1 class="section-title">Contact <span>info</span></h1></div>
-      <div class="contact-items">
-        <div class="contact-item">
-          <div class="icon"><img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.5u7A1BVR50f-1m2MNJFczAHaHa%26pid%3DApi&f=1"/></div>
-          <div class="contact-info">
-            <h1>Gmail</h1>
-            <h2>mohamadamiyaz@gmail.com</h2>
-  <!-- End Contact Section -->
+
   
 
