@@ -84,7 +84,7 @@
             <p>This is an application that is both funny and cool!</p>
           </div>
           <div class="project-img">
-            <img src="https://user-images.githubusercontent.com/22257930/84566541-a77ae880-ad8f-11ea-883d-d548a7ed9f23.png" alt="img">
+            <img src="https://camo.githubusercontent.com/39fba0d000588eb1651b6aa5f3f5fad3b9ecfce1f558b4b83d6f2c9b8859d4df/687474703a2f2f64726f7069742e76656c76657463616368652e6f72672e73332e616d617a6f6e6177732e636f6d2f6a6d686f6262732f4e7a637a464f597134672f7465726d626f782d706172726f742d636f6c6f722e676966" alt="img">
           </div>
         </div>
         <div class="project-item">
@@ -94,10 +94,10 @@
             <p>This repository basically containes all of my Python codes. Enjoy! Credits to @SansUndertaleLab and @lomnom for the codes. If you notice, some of the codes are one liners which are done by @lomnom. </p>
           </div>
           <div class="project-img">
-            <img src="https://user-images.githubusercontent.com/22257930/87544595-5af33780-c6c4-11ea-9005-5978cb713556.PNG" alt="img">
+            <img src="https://user-images.githubusercontent.com/105401901/178237924-7f22bb9c-476e-47f5-b487-933113cc38ec.png">
           </div>
           <div class="project-img">
-            <img src="https://user-images.githubusercontent.com/22257930/88288790-e5b1e300-cd11-11ea-86ef-c2bc8c8b6e96.png" alt="img">
+            <img src="https://user-images.githubusercontent.com/105401901/178238142-8a70858c-f8c4-40c6-9ab7-cddb384fce36.png">
           </div>
         </div>
         <div class="project-item">
@@ -107,7 +107,7 @@
             <p>Basically all of my M5GO codes that I do in school/home will be here. Enjoy! </p>
           </div>
           <div class="project-img">
-            <img src="https://user-images.githubusercontent.com/22257930/86759685-52668580-c062-11ea-97d8-39f8838c32dd.png" alt="img">
+            <img src="https://user-images.githubusercontent.com/105401901/178238451-a4dcbc4d-fd77-4298-82e6-6f80adfb063f.png">
           </div>
         </div>
       </div>
