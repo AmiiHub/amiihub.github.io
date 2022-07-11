@@ -80,7 +80,7 @@
         <div class="project-item">
           <div class="project-info">
             <h1>Project 2</h1>
-            <a href="https://github.com/AmiiHub/RGBParrot" class="cta">Online Test</a>
+            <a href="https://github.com/AmiiHub/RGBParrot" class="cta">RGBParrot</a>
             <p>This is an application that is both funny and cool!</p>
           </div>
           <div class="project-img">
