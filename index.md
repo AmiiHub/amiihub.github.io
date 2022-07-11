@@ -87,7 +87,6 @@
         </div>
       </div>
     </div>
-  </section>
   <!-- End Projects Section -->
 
   <!-- About Section -->
