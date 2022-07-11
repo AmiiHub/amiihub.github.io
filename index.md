@@ -41,24 +41,6 @@
   </section>
   <!-- End Hero Section  -->
 
-  <!-- Service Section -->
-  <section id="services">
-    <div class="services container">
-      <div class="service-top">
-        <h1 class="section-title">Serv<span>i</span>ces</h1>
-        <h2>Some of the services provided by me.</h2>
-      </div>
-      <div class="service-bottom">
-        <div class="service-item">
-          <div class="icon"><img src="./img/services.png"/></div>
-          <h2>Web Development & Web Design</h2>
-          <p>Work with programming languages like HTML, CSS, JS, PHP, etc.. to create websites and web applications</p>
-        </div>
-      </div>
-    </div>
-  </section>
-  <!-- End Service Section -->
-
   <!-- Projects Section -->
   <section id="projects">
     <div class="projects container">
