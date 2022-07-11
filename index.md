@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="style.css">
   <title>My Website</title>
-  <link rel="icon" href="./img/website.png">
+  <link rel="icon" href="https://avatars.githubusercontent.com/u/105401901?v=4">
 </head>
 
 <body>
@@ -39,7 +39,7 @@
       <div>
         <h1>Hello, <span></span></h1>
         <h1>My Name is <span></span></h1>
-        <h1>Sahil Janbandhu<span></span></h1>
+        <h1>Mohamad Magdom Amiyaz aka AmiiHub on GitHub<span></span></h1>
         <a href="#projects" type="button" class="cta">Projects</a>
       </div>
     </div>
