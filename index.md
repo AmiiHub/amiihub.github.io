@@ -13,7 +13,7 @@
     <div class="header container">
       <div class="nav-bar">
         <div class="brand">
-          <a href="#hero"><h1><span>AMIYAZ <span> </span></span>THE AMAZING</h1></a>
+          <a href="#hero"><h1><span>Website proudly made by <span> </span></span>Amiyaz</h1></a>
         </div>
         <div class="nav-list">
           <div class="hamburger"><div class="bar"></div></div>
@@ -33,7 +33,6 @@
         <h1>Hello, <span></span></h1>
         <h1>Welcome to <span></span></h1>
         <h1>My website!<span></span></h1>
-         <h1>*Website proudly made by Amiyaz*<span></span></h1>
         <a href="#projects" type="button" class="cta">Projects</a>
       </div>
     </div>
